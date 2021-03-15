@@ -6,7 +6,7 @@
 }
 
 .body {
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .section-flex {
@@ -52,6 +52,12 @@
 .scroll {
   position: absolute;
   bottom: 120px;
+}
+
+.scroll:hover {
+  fill: black;
+  stroke: black;
+  cursor: pointer;
 }
 
 .section-two {
@@ -231,4 +237,283 @@
 .footer_svg {
   stroke: rgb(60, 60, 60);
   transform: scale(0.8);
+}
+
+@media screen and (max-width: 1679px) and (min-width: 1201px) {
+  .section-five {
+    width: 750px;
+    height: 685px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .block-smaller {
+    width: 350px;
+    height: 175px;
+  }
+
+  .block-bigger {
+    width: 350px;
+    height: 175px;
+  }
+
+  .section-five__block {
+    background-size: cover;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    padding: 100px 0 0px 25px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .section-one__title {
+    font-size: 44px;
+    letter-spacing: 5.5px;
+    margin: 100px 0 50px 0;
+  }
+
+  .section-one__text {
+    font-size: 14px;
+  }
+
+  .section-fieldset {
+    width: 698px;
+  }
+
+  .section-two__fieldset {
+    height: 308px;
+  }
+
+  .fieldset__legend {
+    font-size: 38px;
+    line-height: 1.2;
+    padding: 0 75px;
+    letter-spacing: 7.5px;
+  }
+
+  .label-par {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .par-one {
+    padding-top: 20px;
+  }
+
+  .par-two {
+    width: 420px;
+  }
+
+  .fieldset__content {
+    width: 500px;
+    height: 250px;
+  }
+  .fd-one {
+    margin-top: 20px;
+  }
+
+  .fieldset__title {
+    font-size: 28px;
+  }
+
+  .fieldset__text {
+    font-size: 13px;
+  }
+
+  .section-five {
+    width: 750px;
+    height: 685px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .block-smaller {
+    width: 350px;
+    height: 175px;
+  }
+
+  .block-bigger {
+    width: 350px;
+    height: 175px;
+  }
+
+  .section-five__block {
+    background-size: cover;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    padding: 100px 0 0px 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .section-one__title {
+    font-size: 36px;
+    letter-spacing: 3.5px;
+    margin: 80px 0 40px 0;
+  }
+
+  .section-one__text {
+    font-size: 14px;
+  }
+
+  .section-fieldset {
+    width: 600px;
+  }
+
+  .section-two__fieldset {
+    height: 308px;
+  }
+
+  .fieldset__legend {
+    font-size: 30px;
+    line-height: 1.1;
+    padding: 0 50px;
+    letter-spacing: 5.5px;
+  }
+
+  .label-par {
+    width: 500px;
+    font-size: 15px;
+  }
+
+  .par-one {
+    padding-top: 20px;
+  }
+
+  .par-two {
+    width: 420px;
+  }
+
+  .fieldset__content {
+    width: 500px;
+    height: 250px;
+  }
+  .fd-one {
+    margin-top: 15px;
+  }
+
+  .fieldset__title {
+    font-size: 24px;
+  }
+
+  .fieldset__text {
+    font-size: 12px;
+  }
+
+  .section-four__svg {
+    transform: scale(0.8);
+  }
+
+  .section-five {
+    width: 750px;
+    height: 685px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .block-smaller {
+    width: 350px;
+    height: 175px;
+  }
+
+  .block-bigger {
+    width: 350px;
+    height: 175px;
+  }
+
+  .section-five__block {
+    font-size: 30px;
+    letter-spacing: 7.5px;
+    padding: 100px 0 0px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 360px) {
+  .section-one__title {
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    margin: 80px 0 40px 0;
+  }
+
+  .section-one__text {
+    height: 80px;
+    width: 450px;
+    font-size: 13px;
+  }
+
+  .section-fieldset {
+    width: 450px;
+  }
+
+  .section-two__fieldset {
+    height: 300px;
+  }
+
+  .fieldset__legend {
+    font-size: 30px;
+    line-height: 1.1;
+    padding: 0 50px;
+    letter-spacing: 5.5px;
+  }
+
+  .label-par {
+    width: 450px;
+    font-size: 15px;
+  }
+
+  .par-one {
+    padding-top: 20px;
+  }
+
+  .par-two {
+    width: 420px;
+  }
+
+  .fieldset__content {
+    width: 450px;
+    height: 250px;
+  }
+  .fd-one {
+    margin-top: 15px;
+  }
+
+  .fieldset__title {
+    font-size: 24px;
+  }
+
+  .fieldset__text {
+    font-size: 12px;
+  }
+
+  .section-five {
+    width: 450px;
+    height: 950px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .block-smaller {
+    width: 450px;
+    height: 150px;
+  }
+
+  .block-bigger {
+    width: 450px;
+    height: 150px;
+  }
+
+  .section-five__block {
+    font-size: 30px;
+    letter-spacing: 7.5px;
+    padding: 100px 0 0px 20px;
+  }
 }
